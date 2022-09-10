@@ -12,19 +12,19 @@ int main(void)
  {
   for (m = 49; m <= 57; m++)
   {
-   if (m > n)
-   {	 
-    putchar(n);
-    putchar(m);
-    if (n != 56 || m != 57)	
+    if (m > n)
     {
-     putchar(',');
-     putchar(' ');
+     putchar(n);
+     putchar(m);
+     if (n != 56 || m != 57)
+     {
+      putchar(',');
+      putchar(' ');
+     }
     }
    }
   }
- }
-putchar('\n');
-Return (0);
+  putchar('\n');
+  return (0); 
 }
 

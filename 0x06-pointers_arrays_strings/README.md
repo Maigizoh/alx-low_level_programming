@@ -7,3 +7,4 @@ Write a function that adds two numbers.
 Write a function that prints a buffer.
 Write a function that concatenates two strings.
 Write a function that concatenates two strings.
+Write a function that copies a string.
